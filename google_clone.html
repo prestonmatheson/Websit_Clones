@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Clone</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">    
+  </head>
+
+  <body>
+    <header>
+      <ul class="nav-right">
+        <li><a href="#">Gmail</a></li>
+        <li><a href="#">Images</a></li>
+        <li><input type="button" id="sign-in" value="Sign In"/></li>
+      </ul>
+
+      <script type="text/javascript">
+        function focusIt()
+        {
+          var my_search_box = document.getElementById("search-box");
+          my_search_box.focus();
+        }
+
+        onload = focusIt;
+      </script>
+    </header>
+    
+      <div class="content">
+
+        <div class="logo">
+          <img src="https://lh3.googleusercontent.com/jcNpFpq6451L4vVyOe8IsTR1BbHq1hfqefi-PqANRf8W61DiCQYVzHSRG6pzriHrXmZk8UTrAJVk92lqraNMGHUJD7Bs6tDszCYwLAo=s660" alt="Google Logo" width="600">
+        </div>  
+
+        <div class="search">
+          <input id="search-box" type="text" name="search" />
+        </div>
+
+        <div class="search-buttons">
+          <input type="button" class="button" name="google" value="Google Search"/>
+          <input type="button" class="button" name="google" value="I'm Feeling Lucky"/>
+        </div>
+
+      </div>  
+
+    <footer>
+      <ul class="footer-left">
+        <li><a href="#">Advertising</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+
+      <ul class="footer-right">
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+
+    </footer>
+
+  </body>  
+</html>
