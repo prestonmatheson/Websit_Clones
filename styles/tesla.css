@@ -29,6 +29,10 @@ video.background-video {
   opacity: 0.8;
 }
 
+#header a:hover {
+  opacity: 1;
+}
+
 
 .nav-right {
   float: right;
@@ -95,6 +99,8 @@ video.background-video {
   border: 1px solid white;
   -webkit-transition: 400ms ease-in-out;
   -moz-transition: 400ms ease-in-out;
+  cursor: pointer;
+  opacity: 1;
 }
 
 /*Footer styles*/
@@ -117,6 +123,10 @@ video.background-video {
   margin-left: 10px;
   text-align: center;
   opacity: 0.8;
+}
+
+.footer a:hover {
+  opacity: 1;
 }
 
 .footer a img {
