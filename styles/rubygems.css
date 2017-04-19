@@ -1,5 +1,4 @@
 div {
-/*   border: 1px solid white; */
   margin: auto;
 }
 
@@ -15,7 +14,11 @@ h1 {
 
 img {
   height: 31px;
-  background-color: red;
+}
+
+img:hover {
+  transition: all ease-in-out .75s;
+  transform: rotateY(360deg)
 }
 
 .navleft {
@@ -39,14 +42,12 @@ img {
   background-color: #e9573f;
   display: block;
   color:  white;
-  /* height: 66vh */
 }
 
 .wrapper {
   margin-bottom: 60px;
   padding: inherit;
   max-width: 780px;
-  /* font-size: 60px; */
 }
 
 #home_heading {
@@ -77,10 +78,6 @@ img {
   color: red;
 }
 
-/* .element {
-pseudo-before: "nameOfElement, otherElement";
-pseudo-after: "otherElement";
-} */
 .download_statuses{
   text-align: center;
   width: 500px;
